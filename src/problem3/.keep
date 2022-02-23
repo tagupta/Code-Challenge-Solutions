@@ -1,0 +1,6 @@
+Data source connector tool
+
+steps:
+1. Change the working directory to "problem3" in terminal
+2. run python3 -m http.server 8000
+3. use this url "http://localhost:8000/" to run the application

@@ -1,0 +1,15 @@
+Deploy a utility EVM contract with a function to retrieve all token balances given a 
+wallet address and the token contract addresses.
+
+I've tested the scripts for "development" network. 
+So, the current addresses present in the test2.js are applicable to this network only. 
+When you try to run the script, do modify the addresses as needed.
+
+steps:
+1. Change the working directory to "problem4" in terminal
+2. For locally running the blockchain
+   run: ganache-cli --allowUnlimitedContractSize --gasLimit 0x3B9AC9FF or run ganache UI
+3. > truffle migrate
+4. > update the address in test2.js
+5. > truffle console
+6. > test
